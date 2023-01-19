@@ -356,3 +356,56 @@ usaremos o de modal: `npm install @radix-ui/react-dialog`
 `npm install @radix-ui/react-popover`
 
 usaremos uma biblioteca chamada clsx para fazer a estilizacao dos quadradinhos conforme forem sendo completos
+
+# Aula 3 - Parte Mobile
+
+faremos a tela para cadastrar novos habitos e também a tela para visualizar os habitos
+
+Implementar a navegaçao - fazer com que o usuario possa navegar de uma tela para outra
+
+para criar as rotas, usaremos o react navigation
+
+[https://reactnavigation.org/](https://reactnavigation.org/)
+
+`npm install @react-navigation/native`
+
+`npx expo install react-native-screens react-native-safe-area-context`
+
+`npm install @react-navigation/native-stack`
+
+Conteúdo
+
+- Criar a estrutura básica das telas
+    - Cadastro de Hábito
+    - Detalhes do Hábito
+- Implementando Navegação
+    - Criar as rotas da aplicação
+    - Navegar para a tela de cadastro
+    - Definir a tipagem das rotas de navegação
+    - Navegar para a tela de hábito
+- Criar a interface de cadastro de hábitos
+    - Componente BackButton
+    - Implementar botão de voltar na tela de cadastro
+    - Input de novo hábito
+    - Componente de Checkbox
+    - Listar um Checkbox para cada dia da semana
+    - Criar a função de marcar/desmarcar Checkbox
+    - Botão de confirmar
+    - Utilizar ScrollView para habilitar rolagem
+- Criar a interface de hábitos do dia
+    - Utilizar ScrollView para habilitar rolagem
+    - Reaproveitar o componente BackButton
+    - Implementar botão de voltar na tela de cadastro
+    - Input de novo hábito
+    - Componente de Checkbox
+    - Listar um Checkbox para cada dia da semana
+    - Criar a função de marcar/desmarcar Checkbox
+    - Botão de confirmar
+- Criar a interface de hábitos do dia
+    - Navegar para a tela de hábito
+    - Utilizar Scrollview para habilitar rolagem
+    - reaproveitar o componente BackButton
+    - Passando e recuperando data como parâmetro da rota
+    - Formatar e exibir dia/mês
+    - Criar o componente ProgressBar
+    - Utilizar componente de Checkbox
