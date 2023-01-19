@@ -323,3 +323,36 @@ uma obs.: o react native nao suporta o uso de svg, para isso precisamos da bibli
 fizemos a mesma logica dos quadrinhos que fizemos no mobile
 
 e o resto fica pra proxima aula
+
+# Aula 3 - Parte web
+
+em server:
+
+iremos finalizar as rotas do back-end a de resumo de dias e a de completar o habito
+
+vamos começar com a rota de ‘completar’ o habito e para isso usaremos o patch, ja que a rota vai funcionar como um toggle (onde podemos marcar e desmarcar a opcao)
+
+depois faremos a rota summary que vai nos retornar os dias que temos habitos, quantos habitos tem naquele dia, e quanto habitos foram completados.
+
+em web:
+
+vamos criar um modal de criacao de habito
+
+fazer um popover do detalhe do dia
+
+personalizar o progresso no quadrado do habito
+
+no react nós usamos a forma declarativa 
+
+<aside>
+✨ estados sao variaveis monitoradas pelo react
+
+</aside>
+
+radixUi sao varios componentes sem estilizacao e completamente acessiveis
+
+usaremos o de modal: `npm install @radix-ui/react-dialog`
+
+`npm install @radix-ui/react-popover`
+
+usaremos uma biblioteca chamada clsx para fazer a estilizacao dos quadradinhos conforme forem sendo completos
