@@ -423,3 +423,18 @@ Conteúdo
 `npm install @radix-ui/react-checkbox`
 
 `npm i axios`
+
+# Aula 4 - parte mobile
+
+- iniciando o servidor
+    - instalando o axios
+    - configurando acesso ao server
+- Home
+    - listando o sumário
+    - utilizando componente de loading
+    - passando utilizado propriedades no componente HabitDay
+        - criando uma funcao para calcular a porcentagem do progresso
+        - utilizando o clsx para utilizar classes condicionais
+- new
+    - obtendo dados do formulario
+    - cadastrando e enviando novos dados para api
