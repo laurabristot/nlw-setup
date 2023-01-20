@@ -409,3 +409,17 @@ Conteúdo
     - Formatar e exibir dia/mês
     - Criar o componente ProgressBar
     - Utilizar componente de Checkbox
+
+    # Aula 4 - Conectando a Api
+
+- Front-end
+    - Criando
+    - Obtendo dados do fomulário
+- Conexão com back-end
+    - Configurando cliente HTTP
+    - Buscando resumo da API
+    - Criação de um novo hábito
+
+`npm install @radix-ui/react-checkbox`
+
+`npm i axios`
