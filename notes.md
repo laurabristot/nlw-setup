@@ -438,3 +438,17 @@ Conteúdo
 - new
     - obtendo dados do formulario
     - cadastrando e enviando novos dados para api
+
+    # Aula 5 - o Próximo nível
+
+- Front-end
+    - listando hábitos possíveis do dia
+    - desabilitando em datas passadas
+    - sincronizando hábitos completos
+    - adicionando transitions e focus
+
+- Desafios:
+    - adicionar autenticacao de usuário
+    - notificações push / service workers
+    - perfil publico com grafico de resumos
+    - botao de editar ou excluir habito
