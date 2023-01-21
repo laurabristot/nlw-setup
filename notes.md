@@ -448,7 +448,23 @@ Conteúdo
     - adicionando transitions e focus
 
 - Desafios:
-    - adicionar autenticacao de usuário
+    - adicionar autenticacao de usuário - firebase, authzero
     - notificações push / service workers
     - perfil publico com grafico de resumos
     - botao de editar ou excluir habito
+
+    # Aula 5 - parte mobile
+
+- Habit
+    - Buscar os hábitos do dia selecionado na API
+    - Exibir a lista de hábitos do dia
+    - Criar o componente de lista de hábitos vazia
+    - Verificar se data selecionada é passada e mostrar mensagem que não pode editar
+    - Exibir o progresso
+- Enviar para API o status do hábito (realizado ou não)
+    - Utilizando o useFocusEffect para atualizar a home ao voltar
+    - Animação
+    - Conhecendo o React Native Reanimated `npx expo install react-native-reanimated`
+    - Instalando e configurando o Reanimated na aplicação
+    - Animar a ProgressBar
+    - Animar a Checkbox
